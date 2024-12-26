@@ -1,0 +1,96 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.article-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+article {
+    flex: 1 1 calc(33.33% - 20px);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+article header {
+    font-size: 0.9em;
+}
+
+article h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+article p {
+    font-size: 1em;
+    color: #333;
+}
+
+article a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+#economy{
+    background-color: rgb(231, 231, 136);
+}
+#tecnology{
+    background-color: rgb(100, 102, 235);
+}
+article a{
+    color: #333;
+}
+article p{
+    color: black;
+}
+#tecnology article img{
+   max-width: 600px;
+}
