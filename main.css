@@ -86,11 +86,17 @@ article a:hover {
     background-color: rgb(100, 102, 235);
 }
 article a{
-    color: #333;
+    color: black;
 }
 article p{
     color: black;
 }
 #tecnology article img{
-   max-width: 600px;
-}
+    max-width: 600px;
+ }
+ #entertainment article img{
+    max-width: 600px;
+ }
+ #entertainment{
+    background-color: rgb(233, 146, 75);
+ }
